@@ -1,0 +1,38 @@
+html {
+    display: table;
+    margin: auto;
+ }
+
+.top-10{
+    /* background-color: cyan; */
+    height: 3000px;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    display: table-cell;
+    vertical-align: middle;
+    transition: background-color .2s ease;
+    }
+
+ button:hover {
+    background-color: yellow;
+}
+
+/* Opacity less than 1 to show effect */
+.image-container:hover .image{
+    opacity: 0.8;
+}
+ 
+
+.navbar-brand{    
+    height: 100px;
+}
+
+.maologo{
+    width: 250px;
+    height: 100px;
+    /* object-fit: cover; */
+}
+/* end of top-10 */
+
+
+
+/* beginning of MaosHomePage */
